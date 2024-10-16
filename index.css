@@ -53,3 +53,43 @@ select {
   border-radius: 12px;
   width: 30%;
 }
+@media (max-width: 600px) {
+  .mainContainer {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 30px;
+  }
+
+  .labelContainer {
+    width: 100%;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    color: #333; /* Dark gray text */
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for Safari */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    background-position: right 10px center; /* Position the arrow */
+    background-size: 10px; /* Size of the arrow */
+  }
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+
+  .submitButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+}
